@@ -1,0 +1,220 @@
+// custom Class
+.bg-success {
+    background-color: #28a745 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #000;
+    
+    .nav-item {
+        padding-left: 1rem;
+
+        .nav-link {
+            text-transform: uppercase;
+        }
+    }
+}
+
+// #showcse Section Scss
+.carousel-item {
+    height: 450px;
+}
+.carousel-img-1 {
+    background: url(img/image1.jpeg);
+    background-size: cover;
+}
+.carousel-img-2 {
+    background: url(img/image2.jpeg);
+    background-size: cover;
+}
+.carousel-img-3 {
+    background: url(img/image3.jpeg);
+    background-size: cover;
+}
+
+.carousel-caption {
+
+    h2 {
+        color: #f8f9fa;
+    }
+
+}
+
+// Home icon Section SCSS
+#homeIcon {
+    
+    .fas {
+        font-size: 50px;
+    }
+
+}
+
+// Get Started Section Scss
+#getStarted {
+    background: url(img/bg1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 250px;
+    position: relative;
+
+    .dark-overlay {
+        background: rgba(0, 0, 0, .7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+// Home video Section Scss
+#homeVideo {
+    background: url(img/people.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    position: relative;
+
+    .dark-overlay {
+        background: rgba(0, 0, 0, .7);
+        height: 100%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        position: absolute;
+    }
+
+    .fab {
+        font-size: 50px;
+    }
+}
+
+// Gallery Section Scss
+#gallery {
+    
+    img {
+        min-height: 250px;
+    }
+
+}
+
+// Footer Section Scss
+#coppyRight {
+    background-color: #000;
+}
+
+// aboutHeader Section Scss
+#aboutHeader {
+    background: url(img/image1.jpeg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+// What We do Section scss
+#whatWeDo {
+
+    img {
+        height: 350px;
+        width: 350px;
+    }
+}
+
+// Icon Boxes Section scss
+#iconBoxes {
+
+    .fas {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .fab {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+}
+
+// Testimonial Section scss
+#testimonial {
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: #000;
+    }
+}
+
+// Services Header Section scss
+#serviceHeader {
+    background: url(img/image2.jpeg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+// Blog Header Section scss
+#blogHeader {
+    background: url(img/image3.jpeg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+// Contact Header Section scss
+#contactHeader {
+    background: url(img/image4.jpeg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+
+// Responsive
+@media(max-width: 991px){
+    #homeInfo {
+
+        p {
+            font-size: 1rem;
+        }
+
+    }
+}
+
+@media(max-width: 767px){
+    .nav-item {
+        padding-left: 0 !important;
+    }
+}
+
+@media(max-width: 510px){
+    #getStarted {
+        min-height: 300px;
+    }
+
+    #newslatter {
+        button {
+            width: 220px
+        }
+    }
+}
+
+@media(max-width: 410px){
+    .carousel-caption {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media(max-width: 370px){
+    #getStarted {
+        min-height: 330px;
+    }
+}
